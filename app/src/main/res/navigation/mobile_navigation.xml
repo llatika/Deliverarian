@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_sianko">
+
+    <fragment
+        android:id="@+id/nav_sianko"
+        android:name="com.example.deliverarian.ui.home.HomeFragment"
+        android:label="Siankoo"
+        tools:layout="@layout/fragment_sianko" />
+
+    <fragment
+        android:id="@+id/nav_ocassions"
+        android:name="com.example.deliverarian.ui.gallery.GalleryFragment"
+        android:label="Ocassions"
+        tools:layout="@layout/fragment_occasion" />
+
+    <fragment
+        android:id="@+id/nav_add"
+        android:name="com.example.deliverarian.ui.slideshow.SlideshowFragment"
+        android:label="Add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.deliverarian.ui.slideshow.SlideshowFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/nav_others"
+        android:name="com.example.deliverarian.ui.slideshow.SlideshowFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_others" />
+</navigation>
